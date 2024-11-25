@@ -50,4 +50,16 @@ The analysis covers:
 - Mothers who never smoked and those who currently smoke have significantly different mean birth weights compared to other groups.
 - No significant differences were observed between mothers who smoked until pregnancy and those who smoked once.
 
+## Dependencies
+
+
+### R Packages
+All R dependencies are listed in the `requirements.txt` file. To install them, you can use the following R script:
+
+```R
+# Read the required packages from the file and install them
+packages <- readLines("requirements.txt")
+install.packages(packages)
+
+```
 
